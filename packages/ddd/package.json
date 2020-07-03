@@ -1,0 +1,38 @@
+{
+  "name": "@gitaction/ddd",
+  "version": "1.0.0",
+  "description": "DDD concepts",
+  "keywords": [
+    "ddd"
+  ],
+  "author": "sunwei <me@sunwei.xyz>",
+  "homepage": "https://github.com/gitaction/toolkit/tree/master/packages/ddd#readme",
+  "license": "MIT",
+  "main": "lib/ddd.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitaction/toolkit.git",
+    "directory": "packages/ddd"
+  },
+  "scripts": {
+    "audit-moderate": "npm install && npm audit --audit-level=moderate",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/gitaction/toolkit/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2"
+  }
+}
