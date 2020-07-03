@@ -5,7 +5,7 @@
   "scripts": {
     "audit-all": "lerna run audit-moderate",
     "bootstrap": "lerna bootstrap",
-    "package": "lerna publish from-package",
+    "package": "lerna publish from-git",
     "build": "lerna run tsc",
     "check-all": "concurrently \"npm:format-check\" \"npm:lint\" \"npm:test\" \"npm:build -- -- --noEmit\"",
     "format": "prettier --write packages/**/*.ts",
